@@ -15,7 +15,7 @@ Enable Container via defines
 
 Fore some container you need to supply dependencys yourself check the README.md under /Container/\<containerName\>/README.ME
 
-## Performance
+## Performance in ms (smaller is better) 
 
 | Container   | Singleton | Transient | Combined  | Complex   | Factory   |
 | :---        | ---:      | ---:      | ---:      | ---:      | ---:      |
@@ -26,3 +26,5 @@ Fore some container you need to supply dependencys yourself check the README.md 
 | TinyIoC     | 23        | 105       | 431       | 1719      | 47        |
 | DryIoc      | 17        | 4         | 11        | 10        | 25        |
 | Ninject     | 600       | 1776      | 9455      | 15460     | 2534      |
+
+DryIoc: https://bitbucket.org/dadhi/dryioc
